@@ -1,0 +1,7 @@
+{
+  "title": "New repository, secure master branch",
+  "body": "Thanks for creating a repository and contributing to this organization.\n  In order to maintain our amazing organization standard we are enforcing the following protections on the Master branch:\n  * Requiring PR reviews.\n  * Dismissing stale reviews. This means existing approvals will be dismissed and have to be reapplied, when the comit on a PR changes.\n  * Blocking PR merge until one of the designated code owners has offered a review.\n  * Blocking PR merge until a minimum of one approval.\n  * Finally, at the moment only @jamesomorodion is allowed to merge push onto the Master branch.",
+  "assignees": [
+    "jamesomorodion"
+  ]
+}

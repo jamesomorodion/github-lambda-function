@@ -1,0 +1,13 @@
+{
+  "name": "lambda-github",
+  "version": "1.0.0",
+  "description": "Version one of lambda function to auto secure and comment on new repository",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "latest",
+    "a": "latest"
+  },
+  "author": "jamesomorodion",
+  "license": "ISC",
+  "devDependencies": {}
+}
