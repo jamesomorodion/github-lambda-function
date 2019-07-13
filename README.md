@@ -6,15 +6,15 @@ It relies on webhook activation and it leaves an issue on the new repository det
 This function is written in Node.js v10+
 
 ## How To:
-To package this repository for deploy, do the following:
+To package this repository for deployment, do the following:
 * Run the `package.sh` script, which does three things:
   * Removes preexisting packages.
   * Installs all necessary node modules.
   * Packages entire directory into a zip, ready for delivery.
 * Take resulting zip and deploy to AWS Lambda for activation.
-* Ensure that an environment variable named `TOKEN` is available in your Lambda.
+* Ensure that an environment variable named `TOKEN` is available to your Lambda function.
   * TOKEN is your granted bearer token to authorize your requests against the GitHub API.
-  * Please save in the format of `bearer 1234567890`.
+  * Please save this variable in the format: `bearer 1234567890`.
 
 ## Enhancements:
 This project was developed in a PoC fashion, as such it tis acknowledged that there are multiple rooms for improvements, including het following:
