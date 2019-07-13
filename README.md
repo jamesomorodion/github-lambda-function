@@ -15,3 +15,13 @@ To package this repository for deploy, do the following:
 * Ensure that an environment variable named `TOKEN` is available in your Lambda.
   * TOKEN is your granted bearer token to authorize your requests against the GitHub API.
   * Please save in the format of `bearer 1234567890`.
+
+## Enhancements:
+This project was developed in a PoC fashion, as such it tis acknowledged that there are multiple rooms for improvements, including het following:
+* Applying SOLID principles to functions defined
+* Moving functions to a more suitable class
+* Adding a service class for better separation of responsibility
+* Programmatically validating or generating auth tokens
+* Amongst a lot of others to make this solution more robust.
+
+Please feel free to submit suggestions.
